@@ -95,11 +95,13 @@ function redo(i){
 function delfunc(listid, i){
 if (listid === "current"){
     currenttasks.splice(i, 1)[0];
+    document.getElementById("todotasks").textContent = "You have "+ count + " tasks completed. Only "+ currenttasks.length + " remains";
     displaycompletedtasks();
     displaytasks();
 }
 else {
     completedtasks.splice(i, 1) [0];
+    document.getElementById("todotasks").textContent = "You have "+ count + " tasks completed. Only "+ currenttasks.length + " remains";
     displaycompletedtasks();
     displaytasks();
 }
