@@ -1,0 +1,46 @@
+header *{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+
+}
+
+#title{
+   color:blueviolet; 
+   display: flex;
+   justify-content: center;
+}
+
+#todotasks{
+    color:rgb(26, 5, 211)
+}
+
+#task{
+    width: 300px;
+    height: 20px;
+    border: 2px groove rgb(252, 177, 27);
+}
+
+#ctasks{
+    text-decoration: line-through;
+    color: dimgray;
+}
+
+.trashicon {
+  color: #e53e3e;         
+  font-size: 18px;        
+  cursor: pointer;        
+ 
+}
+
+#newtaskbtn{
+    cursor: pointer;
+    background-color: beige;
+    color: rgb(231, 64, 64);
+
+}
+
+#tasks{
+    color: black;
+}
+
