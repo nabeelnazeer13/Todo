@@ -12,7 +12,8 @@ header *{
 }
 
 #todotasks{
-    color:rgb(26, 5, 211)
+    color:rgb(26, 5, 211);
+
 }
 
 #task{
@@ -44,3 +45,21 @@ header *{
     color: black;
 }
 
+
+    
+    
+
+
+
+
+ul.ctasks {
+    list-style-type: georgian;
+    background: lightgreen;
+    padding: 15px;
+}
+
+ul.ctasks li {
+    background: azure;
+    color: blueviolet;
+    margin: 5px;
+}
